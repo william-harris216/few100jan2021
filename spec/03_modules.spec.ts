@@ -20,7 +20,7 @@ describe('modules and stuff', () => {
         });
 
             it('creating a retiree', () => {
-                const will = new Retiree('Will', 'Hill', 'IT');
+                const will = new Retiree('Will', 'Hill');
 
                 expect(will.firstName).toBe('Will');
                 expect(will.lastName).toBe('Hill');

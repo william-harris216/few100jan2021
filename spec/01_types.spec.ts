@@ -1,5 +1,5 @@
 import { Message } from "../src/message";
-import { PI } from './utils';
+import { PI } from '../utils';
 
 describe('variables and types in TypeScript', () => {
     it('untyped variables', () => {
